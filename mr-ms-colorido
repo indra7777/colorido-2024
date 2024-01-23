@@ -296,11 +296,16 @@ transition: .3s all ease;
     <div style="padding-top: 3%;">
       <h5 class="text-center">Staff Coordinators:</h5>
       <table class="w3-table-all w3-border">
-        <tbody>
-          <tr><th>Sri. A. Yaswanth Kumar</th><th>	IT</th><th>	9966049619</th></tr>
-          <tr><th>Sri. P. Siddhartha</th><th>MBA	</th><th>9491611567</th></tr>
-          <tr><th>Mr. Sreeram Nimmagadda</th><th>	Physics</th><th>	</th></tr>
-        </tbody>
+        <tbody><tr>
+        </tr><tr><th>Dr. P.V. Kishore Babu</th>	<th>EEE	</th><th>9494414529</th></tr>
+        <tr><th>Sri. K. Siva Prasada Rao</th>	<th>ChE</th>	<th>9640940920</th></tr>
+        <tr><th>Sri. J. Ranga Raya Chowdary</th>	<th>ME</th>	<th>9701730044</th></tr>
+        <tr><th>Smt. M. Vasavi</th>	<th>CSE	</th><th>9490114243</th></tr>
+        <tr><th>Sri. A. Sambasiva Rao</th>	<th>IT	</th><th>9848161316</th></tr>
+        <tr><th>Sri. V. Mastan Rao</th>	<th>EEE</th>	<th>9492078762</th>
+        
+        
+        </tr></tbody>
       </table>
     </div>
 
