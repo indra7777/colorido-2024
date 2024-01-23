@@ -1,0 +1,106 @@
+
+/* navbar */
+
+body {
+    background-color: #f7f7f7;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.logo {
+    padding-left: 7%;
+}
+
+#navbarNavDropdown {
+    padding-right: 10%;
+
+}
+
+.hover-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+.hover-nav li {
+    float: left;
+}
+
+.hover-nav li a {
+    position: relative;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 18px 12px;
+    text-decoration: none;
+    z-index: 0;
+}
+
+.nav-item {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+li a::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: #f1e9cb;
+    z-index: -1;
+    transform: scale(0);
+    transition: transform 0.2s ease-in-out;
+}
+
+li a:hover::before,
+li a:focus::before {
+    transform: scale(1);
+}
+
+
+/* carousel */
+.carousel-inner {
+    height: 0;
+    padding-bottom: 34%;
+    /* this sets carousel aspect ratio (4:1 here) 
+}
+
+.carousel-item {
+  position: absolute !important; /* Bootstrap is insistent */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.carousel-item img {
+    height: 100%;
+    /* Bootstrap handles width already */
+    object-fit: cover;
+    /* or 'contain' if you want stretch instead of crop */
+}
+
+
+/* event category */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #8f8f8f;
+}
+
+li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.row {
+    padding-top: 35px;
+}
