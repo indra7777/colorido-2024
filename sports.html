@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    
+<!--fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <!--bootstrap-->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+      <!--w3-resources-->
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <!-- font awesome -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">    
+
+      <style>
+
+
+
+        .container {
+            display: none;
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin-top: 10px;
+        }
+
+        /* Style the accordion button */
+        .accordion-button {
+            display: inline-block;
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px;
+            cursor: pointer;
+        }
+.header {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.container {
+            display: none;
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin-top: 10px;
+        }
+
+        /* Style the accordion button */
+        #event-name {
+            display: inline-block;
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px;
+            cursor: pointer;
+            font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+        }
+      </style>
+</head>
+<body>
+    <div class="header p-3 pb-md-4 mx-auto text-center">
+        <h1 class="header display-4 fw-normal ">A National Level Sports Fest</h1>
+      </div>
+      <div class="accordion-button" id="event-name" onclick="toggleContainer()" style="width:131px;">BOYS EVENT</div>
+
+    <!-- Container to be opened and closed -->
+    <div class="container" id="myContainer">
+        <div class="row">
+            <div class="col lg-6">
+                <div class="card" style="width: 18rem;">
+                    <img src="basketball.jpeg" class="card-img-top" style="border-radius: 50%;" alt="basketball">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col lg-6">
+                <div class="card" style="width: 18rem;">
+                    <img src="volleyball.jpeg" class="card-img-top" alt="volleyball">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col lg-6">
+                <div class="card" style="width: 18rem;">
+                    <img src="tabletennis.jpg" class="card-img-top" alt="tabletennis" style="border-radius: 50%;">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <div class="accordion-button" id="event-name" onclick="toggleContainer()" style="width:131px;">BOYS EVENT</div>
+
+    <!-- Container to be opened and closed -->
+    <div class="container" id="myContainer">
+        <div class="row">
+            <div class="col lg-6">
+                <div class="card" style="width: 18rem;">
+                    <img src="basketball.jpeg" class="card-img-top" style="border-radius: 50%;" alt="basketball">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col lg-6">
+                <div class="card" style="width: 18rem;">
+                    <img src="volleyball.jpeg" class="card-img-top" alt="volleyball">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col lg-6">
+                <div class="card" style="width: 18rem;">
+                    <img src="tabletennis.jpg" class="card-img-top" alt="tabletennis" style="border-radius: 50%;">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript function to toggle the container visibility
+        function toggleContainer() {
+            var container = document.getElementById("myContainer");
+            if (container.style.display === "none") {
+                container.style.display = "block";
+            } else {
+                container.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
