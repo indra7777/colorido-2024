@@ -3,7 +3,16 @@
 
 body {
     background-color: #f7f7f7;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Aligarh','sans-serif';
+}
+@font-face {
+    font-family: 'Aligarh';
+    src: local('Aligarh Medium'), local('Aligarh-Medium'),
+        url('./text/Aligarh-Medium/Aligarh-Medium.woff2') format('woff2'),
+        url('./text/Aligarh-Medium/Aligarh-Medium.woff') format('woff'),
+        url('./text/Aligarh-Medium/Aligarh-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
 }
 
 
@@ -43,29 +52,26 @@ body {
     padding-right: 10px;
 }
 
-li a::before {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 100%;
-    bottom: 0;
-    left: 0;
-    background-color: #f1e9cb;
-    z-index: -1;
-    transform: scale(0);
-    transition: transform 0.2s ease-in-out;
-}
+ nav ul li a:after {
+     content: '';
+     width: 0;
+     height: 3px;
+     background: #fac850;
+     position: absolute;
+     left: 0;
+     bottom: -6px;
+     transition: 0.5s;
+ }
 
-li a:hover::before,
-li a:focus::before {
-    transform: scale(1);
-}
+ nav ul li a:hover::after {
+     width: 100%
+ }
 
 
 /* carousel */
 .carousel-inner {
     height: 0;
-    padding-bottom: 48%;
+    padding-bottom: 49%;
     /* this sets carousel aspect ratio (4:1 here) 
 }
 
