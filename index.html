@@ -1,208 +1,1673 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Colorido 2K23</title>
-    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,700;1,400&display=swap"
-        rel="stylesheet">
+    <meta charset="utf-8" />
 
-    <!-- font awesome -->
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width = 1000">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>COLORIDO</title>
+
+    <meta name="description" content="An awesome party for web folk and classy people. Sunday, March 13 2011, starting at 8:00, at Emo's 603 Red River St. Austin, TX" />
+    <meta name="author" content="nclud" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <script src="./js/modernizr.js"></script>
+
 </head>
+
 <body>
-    <!-- main header nav bar -->
-    
-        <nav class="navbar navbar-expand-xl navbar-light hover-nav fixed-top" style="background-color: white;">
-            <div class="container-fluid">
-                <a class="logo" href="#"><img src="./img/colorido.png" alt="colorido Logo" width="250" height="80"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                    <ul class="navbar-nav ml-auto">
+
+    <div id="wrap">
+
+        <div id="offset"></div>
+        <!-- #offset -->
+
+        <div id="container">
+
+            <ul id="nav">
+                <li class="intro"><a href="#intro" class="page-nav">Intro</a></li>
+                <li class="featuring"><a href="#featuring" class="page-nav">Countdown</a></li>
+                <li class="sponsorz"><a href="#sponsorz" class="page-nav">Rewards</a></li>
+                <li class="flip-cup"><a href="#flip-cup" class="page-nav">Gallery</a></li>
+                <li class="teams"><a href="#teams" class="page-nav">Events</a></li>
+            </ul>
+
+            <div id="environment">
+
+                <div id="content">
+
+                    <section id="intro" b style="background-color: white;">
+
+                        <h1>COLORIDO</h1>
+                        <h2>at RVRJC 2024</h2>
+
+                        <time datetime="2024-01-15">
+            <span class="day-of-week">Thursday</span> 
+            <span class="day">FEB <i>15</i></span> 
+            <span class="year">FEB 15-16</span> 
+            <span class="time">Starting at 8:00 AM</span>
+          </time>
+
+                        <div class="location">
+                            <a href="https://www.google.com/maps/place/R.V.R.+%26+J.C.College+of+Engineering/@16.2547657,80.3210254,17z/data=!3m1!4b1!4m6!3m5!1s0x3a4a76e740000001:0xc41c8498715c6da0!8m2!3d16.2547606!4d80.3258963!16zL20vMGZ3Z3J4?entry=ttu">
+                                <h3>Location</h3>
+                                <p class="street">RVRJCCE</p>
+                                <p class="city">Guntur, AP</p>
+                            </a>
+                        </div>
+
+                        <p class="blurb">A party of rational proportions</p>
+
+
+                    </section>
+                    <!-- #intro -->
+
+                    <section id="featuring" b style="background-color: white;">
+
+                        <h1>Countdown</h1>
+
+                        <div class="feature beverages">
+                            <h2>colorido</h2>
                         
-                        <li class="nav-item"><a class="nav-link active" href="#">Hospitality</a></li>
-                        <li class="nav-item"><a class="nav-link active" href="#">Transportation</a></li>
-                        <li class="nav-item"><a class="nav-link active" href="#">Contact us</a></li>
-                        <li class="nav-item"><a class="nav-link active" href="#">About college</a></li>
-                        <li class="nav-item"><a class="nav-link active" href="#events">Events</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+                        </div>
 
-    <!-- carousel gallery -->
-    <!-- create a carousel to show some images of previous fest using bootstrap -->
-    <div id="carouselExampleIndicators" class="carousel slide"
-        data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="0" class="active" aria-current="true"
-                aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="2" aria-label="Slide 3"></button>
-            
+                        <div class="feature music">
+                            <h2><p id="demo" style="
+                                color: red; "> </p></h2>
+
+                                <script>
+                                // Set the date we're counting down to
+                                var countDownDate = new Date("feb 16, 2024 8:00:00").getTime();
+                                
+                                // Update the count down every 1 second
+                                var x = setInterval(function() {
+                                
+                                  // Get today's date and time
+                                  var now = new Date().getTime();
+                                    
+                                  // Find the distance between now and the count down date
+                                  var distance = countDownDate - now;
+                                    
+                                  // Time calculations for days, hours, minutes and seconds
+                                  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                                  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                                  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                                  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                                    
+                                  // Output the result in an element with id="demo"
+                                  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+                                  + minutes + "m " + seconds + "s ";
+                                    
+                                  // If the count down is over, write some text 
+                                  if (distance < 0) {
+                                    clearInterval(x);
+                                    document.getElementById("demo").innerHTML = "we are live";
+                                  }
+                                }, 1000);
+                                </script>
+                            
+                        </div>
+
+                
+                        
+
+                    </section>
+                    <!-- #featuring -->
+
+                    <section id="sponsorz" b style="background-color: white;">
+
+                        <h1 style="text-align: center; color: #ff9900; size:59px;">Rewards:</h1>
+                    
+                        <ul class="spnsr-list">
+                            <!-- Add your sponsors here if needed -->
+                        </ul>
+                    
+                        <h1 style="text-align: center; color: #ff9900; size:59px;">College Fest Rewards</h1>
+                    
+                        <p class="blurb">
+                            "Exciting Rewards Await! Participate in the College Fest for a chance to win amazing prizes."-15,00,000 RS
+                        </p>
+                    
+
+                    
+                    </section>
+                    
+                    <!-- #sponsorz -->
+                     <!-- #slider -->
+
+                    <section id="flip-cup" b style="background-color: white;">
+
+                        <h1>Gallery <span class="tournament"></span>
+                        </h1>
+                            
+
+                        <div id="carousel" class="carousel">
+                            <div id='item_9' class="hideLeft">
+                                <img src="img/slide1.jpeg">
+                              </div>
+                            <div id='item_1' class="hideLeft">
+                             <img src="img/slide1.jpeg">
+                           </div>
+                     
+                           <div id='item_2' class="prevLeftSecond">
+                             <img src="img/slide2.JPG">
+                           </div>
+                     
+                           <div id='item_3' class="prev">
+                             <img src="img/slide3.JPG">
+                           </div>
+                     
+                           <div id='item_4' class="selected">
+                             <img src="img/slide4.JPG">
+                           </div>
+                     
+                           <div id='item_5' class="next">
+                             <img src="img/slide5.JPG">
+                           </div>
+                     
+                           <div id='item_6' class="nextRightSecond">
+                             <img src="img/slide6.JPG">
+                           </div>
+                     
+                           <div id='item_7' class="hideRight">
+                             <img src="img/slide7.JPG">
+                           </div>
+                     
+                           <div id='item_8' class="hideRight">
+                             <img src="img/slide9.JPG">
+                           </div>
+                     
+                         </div>
+                         <div class="buttons">
+                            <button class="button-82-pushable" role="button" id="prev"><span class="button-82-shadow"></span><span class="button-82-edge"></span><span class="button-82-front text">Previous</span></button>
+                    
+                    
+                            <button class="button-82-pushable" role="button" id="next"><span class="button-82-shadow"></span><span class="button-82-edge"></span><span class="button-82-front text">Next</span></button>
+                        </div>
+                            
+                            <script>
+
+const $ = str => document.querySelector(str);
+const $$ = str => document.querySelectorAll(str);
+
+(function() {
+    if (!window.app) {
+        window.app = {};
+    }
+    app.carousel = {
+        removeClass: function(el, classname='') {
+            if (el) {
+                if (classname === '') {
+                    el.className = '';
+                } else {
+                    el.classList.remove(classname);
+                }
+                return el;
+            }
+            return;
+        },
+        reorder: function() {
+            let childcnt = $("#carousel").children.length;
+            let childs = $("#carousel").children;
+
+            for (let j=0; j< childcnt; j++) {
+                childs[j].dataset.pos = j;
+            }
+        },
+        move: function(el) {
+            let selected = el;
+
+            if (typeof el === "string") {
+            console.log(`got string: ${el}`);
+                selected = (el == "next") ? $(".selected").nextElementSibling : $(".selected").previousElementSibling;
+                console.dir(selected);
+            }
+
+            let curpos = parseInt(app.selected.dataset.pos);
+            let tgtpos = parseInt(selected.dataset.pos);
+
+            let cnt = curpos - tgtpos;
+            let dir = (cnt < 0) ? -1 : 1;
+            let shift = Math.abs(cnt);
+
+            for (let i=0; i<shift; i++) {
+                let el = (dir == -1) ? $("#carousel").firstElementChild : $("#carousel").lastElementChild;
+
+                if (dir == -1) {
+                    el.dataset.pos = $("#carousel").children.length;
+                    $('#carousel').append(el);
+                } else {
+                    el.dataset.pos = 0;
+                    $('#carousel').prepend(el);
+                }
+
+                app.carousel.reorder();
+            }
+
+
+            app.selected = selected;
+            let next = selected.nextElementSibling;// ? selected.nextElementSibling : selected.parentElement.firstElementChild;
+            var prev = selected.previousElementSibling; // ? selected.previousElementSibling : selected.parentElement.lastElementChild;
+            var prevSecond = prev ? prev.previousElementSibling : selected.parentElement.lastElementChild;
+            var nextSecond = next ? next.nextElementSibling : selected.parentElement.firstElementChild;
+
+            selected.className = '';
+            selected.classList.add("selected");
+
+            app.carousel.removeClass(prev).classList.add('prev');
+            app.carousel.removeClass(next).classList.add('next');
+
+            app.carousel.removeClass(nextSecond).classList.add("nextRightSecond");
+            app.carousel.removeClass(prevSecond).classList.add("prevLeftSecond");
+
+            app.carousel.nextAll(nextSecond).forEach(item=>{ item.className = ''; item.classList.add('hideRight') });
+            app.carousel.prevAll(prevSecond).forEach(item=>{ item.className = ''; item.classList.add('hideLeft') });
+
+        },
+        nextAll: function(el) {
+            let els = [];
+
+            if (el) {
+                while (el = el.nextElementSibling) { els.push(el); }
+            }
+
+            return els;
+
+        },
+        prevAll: function(el) {
+            let els = [];
+
+            if (el) {
+                while (el = el.previousElementSibling) { els.push(el); }
+            }
+
+
+            return els;
+        },
+        keypress: function(e) {
+            switch (e.which) {
+                case 37: // left
+                    app.carousel.move('prev');
+                    break;
+
+                case 39: // right
+                    app.carousel.move('next');
+                    break;
+
+                default:
+                    return;
+            }
+            e.preventDefault();
+            return false;
+        },
+        select: function(e) {
+        console.log(`select: ${e}`);
+            let tgt = e.target;
+            while (!tgt.parentElement.classList.contains('carousel')) {
+                tgt = tgt.parentElement;
+            }
+
+            app.carousel.move(tgt);
+
+        },
+        previous: function(e) {
+            app.carousel.move('prev');
+        },
+        next: function(e) {
+            app.carousel.move('next');
+        },
+        doDown: function(e) {
+        console.log(`down: ${e.x}`);
+            app.carousel.state.downX = e.x;
+        },
+        doUp: function(e) {
+        console.log(`up: ${e.x}`);
+            let direction = 0,
+                velocity = 0;
+
+            if (app.carousel.state.downX) {
+                direction = (app.carousel.state.downX > e.x) ? -1 : 1;
+                velocity = app.carousel.state.downX - e.x;
+
+                if (Math.abs(app.carousel.state.downX - e.x) < 10) {
+                    app.carousel.select(e);
+                    return false;
+                }
+                if (direction === -1) {
+                    app.carousel.move('next');
+                } else {
+                    app.carousel.move('prev');
+                }
+                app.carousel.state.downX = 0;
+            }
+        },
+        init: function() {
+            document.addEventListener("keydown", app.carousel.keypress);
+           // $('#carousel').addEventListener("click", app.carousel.select, true);
+            $("#carousel").addEventListener("mousedown", app.carousel.doDown);
+            $("#carousel").addEventListener("touchstart", app.carousel.doDown);
+            $("#carousel").addEventListener("mouseup", app.carousel.doUp);
+            $("#carousel").addEventListener("touchend", app.carousel.doup);
+
+            app.carousel.reorder();
+            $('#prev').addEventListener("click", app.carousel.previous);
+            $('#next').addEventListener("click", app.carousel.next);
+            app.selected = $(".selected");
+
+        },
+        state: {}
+
+    }
+    app.carousel.init();
+})();
+                              </script>
+
+                     
+
+                    </section>
+                    <!-- #flip-cup -->
+
+                    <section id="teams" b style="background-color: white;">
+
+                        <h1><span class="tournament"><span class="tourn">Tourn</span><span class="ament">ament</span></span> <span class="teams-title">Teams</span></h1>
+
+                        <ul class="team-list">
+
+                            <li class="team team-a">
+                                <h2>2 girls, 3 guys and a&nbsp;cup.</h2>
+                                <ul class="player-list">
+
+                                    <li class="player">
+                                        Kerry Gunther
+
+                                        <a href="http://twitter.com/kerrygunther">@kerrygunther</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Jim Basio
+
+                                        <a href="http://twitter.com/jimboi">@jimboi</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Tanya Bodnya
+
+                                    </li>
+
+                                    <li class="player">
+                                        Dario Tadic
+
+                                    </li>
+
+                                    <li class="player">
+                                        Nastya Loskutova
+
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li class="team team-b">
+                                <h2>The Irish Hooters</h2>
+                                <ul class="player-list">
+
+                                    <li class="player">
+                                        Patrick Haney
+
+                                        <a href="http://twitter.com/notasausage">@notasausage</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        J Cornelius
+
+                                        <a href="http://twitter.com/jc">@jc</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Matt Downey
+
+                                        <a href="http://twitter.com/mattdowney">@mattdowney</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Jenna Marino
+
+                                        <a href="http://twitter.com/jennamarino">@jennamarino</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Adam Little
+
+                                        <a href="http://twitter.com/adam_little">@adam_little</a>
+
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li class="team team-a">
+                                <h2>Just the Flip</h2>
+                                <ul class="player-list">
+
+                                    <li class="player">
+                                        Rusty Walters
+
+                                        <a href="http://twitter.com/russwalters">@russwalters</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Kim Richie
+
+                                        <a href="http://twitter.com/kimberwom">@kimberwom</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Ken Peluso
+
+                                    </li>
+
+                                    <li class="player">
+                                        Dave Wassell
+
+                                    </li>
+
+                                    <li class="player">
+                                        Cara Citino
+
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li class="team team-b">
+                                <h2>Kickstarter</h2>
+                                <ul class="player-list">
+
+                                    <li class="player">
+                                        Andrew Cornett
+
+                                        <a href="http://twitter.com/amotion">@amotion</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Samuel Cole
+
+                                        <a href="http://twitter.com/samuelcole">@samuelcole</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Fred Benenson
+
+                                        <a href="http://twitter.com/mecredis">@mecredis</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Charles Adler
+
+                                        <a href="http://twitter.com/cadler">@cadler</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Brett Camper
+
+                                        <a href="http://twitter.com/professorlemeza">@professorlemeza</a>
+
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li class="team team-a">
+                                <h2>GSP</h2>
+                                <ul class="player-list">
+
+                                    <li class="player">
+                                        Mike Geiger
+
+                                        <a href="http://twitter.com/tastytruth">@tastytruth</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Carey Head
+
+                                        <a href="http://twitter.com/fourminutesong">@fourminutesong</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Mike Davidson
+
+                                        <a href="http://twitter.com/davidsonmike">@davidsonmike</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Derek Richmond
+
+                                        <a href="http://twitter.com/designagnostic">@designagnostic</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Peter Albrycht
+
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li class="team team-b">
+                                <h2>London calling</h2>
+                                <ul class="player-list">
+
+                                    <li class="player">
+                                        Charlie Osmond
+
+                                        <a href="http://twitter.com/cosmond">@cosmond</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Alliott Cole
+
+                                        <a href="http://twitter.com/alliott">@alliott</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Ben Barnes
+
+                                    </li>
+
+                                    <li class="player">
+                                        Pete Cherry
+
+                                    </li>
+
+                                    <li class="player">
+                                        Jacob Kestner
+
+                                        <a href="http://twitter.com/jacobkestner">@jacobkestner</a>
+
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li class="team team-a">
+                                <h2>Team What?!?</h2>
+                                <ul class="player-list">
+
+                                    <li class="player">
+                                        John Zulim
+
+                                    </li>
+
+                                    <li class="player">
+                                        Michael McCollough
+
+                                    </li>
+
+                                    <li class="player">
+                                        Eric Josselyn
+
+                                    </li>
+
+                                    <li class="player">
+                                        Justin Fae
+
+                                    </li>
+
+                                    <li class="player">
+                                        Chang Cho
+
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li class="team team-b">
+                                <h2>Loch Ness</h2>
+                                <ul class="player-list">
+
+                                    <li class="player">
+                                        Rob Sternenberg
+
+                                        <a href="http://twitter.com/foodtrailersatx">@foodtrailersatx</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Tony Yamanaka
+
+                                    </li>
+
+                                    <li class="player">
+                                        Christina Conklin
+
+                                    </li>
+
+                                    <li class="player">
+                                        Darrin Jensen
+
+                                    </li>
+
+                                    <li class="player">
+                                        Jason Gray
+
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li class="team team-a">
+                                <h2>Das Boots</h2>
+                                <ul class="player-list">
+
+                                    <li class="player">
+                                        Juan Moran
+
+                                    </li>
+
+                                    <li class="player">
+                                        Ralf Garcia
+
+                                    </li>
+
+                                    <li class="player">
+                                        Remington Ruiz
+
+                                    </li>
+
+                                    <li class="player">
+                                        Tyler McEwen
+
+                                    </li>
+
+                                    <li class="player">
+                                        Jason Fialkoff
+
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li class="team team-b">
+                                <h2>Cinco Trouble</h2>
+                                <ul class="player-list">
+
+                                    <li class="player">
+                                        Sandra Fabian
+
+                                        <a href="http://twitter.com/sanfab44">@sanfab44</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Jesse Ramirez
+
+                                    </li>
+
+                                    <li class="player">
+                                        Charles Williams
+
+                                    </li>
+
+                                    <li class="player">
+                                        Amy Zamora
+
+                                    </li>
+
+                                    <li class="player">
+                                        Gina Romero
+
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li class="team team-a">
+                                <h2>Who's cider you on?</h2>
+                                <ul class="player-list">
+
+                                    <li class="player">
+                                        Ian Ochiltree
+
+                                        <a href="http://twitter.com/ianochiltree">@ianochiltree</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Ally Stuart
+
+                                        <a href="http://twitter.com/EtAlly">@EtAlly</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Matt Golding
+
+                                        <a href="http://twitter.com/mattgolding">@mattgolding</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Chris Quigley
+
+                                        <a href="http://twitter.com/rubber_republic">@rubber_republic</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Alex Pitkin
+
+                                        <a href="http://twitter.com/Pitkin">@Pitkin</a>
+
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li class="team team-b">
+                                <h2>Beadenomics</h2>
+                                <ul class="player-list">
+
+                                    <li class="player">
+                                        Brian Cmiel
+
+                                        <a href="http://twitter.com/Fat_Brian">@Fat_Brian</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Rickey Brown
+
+                                        <a href="http://twitter.com/Dokopuffs">@Dokopuffs</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Lauren Gates
+
+                                        <a href="http://twitter.com/LaurieSaurus">@LaurieSaurus</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Keegan Sterling
+
+                                        <a href="http://twitter.com/theguttedfish">@theguttedfish</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Shaun Marston
+
+                                        <a href="http://twitter.com/OckyNohara">@OckyNohara</a>
+
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li class="team team-a">
+                                <h2>Martin&rsquo;s Mom</h2>
+                                <ul class="player-list">
+
+                                    <li class="player">
+                                        Kevin Smith
+
+                                        <a href="http://twitter.com/ksmith">@ksmith</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Greg Robleto
+
+                                        <a href="http://twitter.com/robleto">@robleto</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Doug Dosberg
+
+                                        <a href="http://twitter.com/dosberg">@dosberg</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Patrick Woods
+
+                                        <a href="http://twitter.com/hakjoon">@hakjoon</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Justin S.
+
+                                        <a href="http://twitter.com/joeks">@joeks</a>
+
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li class="team team-b">
+                                <h2>Designated Drinkers</h2>
+                                <ul class="player-list">
+
+                                    <li class="player">
+                                        M. Jackson Wilkinson
+
+                                        <a href="http://twitter.com/whafro">@whafro</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Samara Strauss
+
+                                        <a href="http://twitter.com/sammaarra">@sammaarra</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Heather Ritchie
+
+                                        <a href="http://twitter.com/heatheranne">@heatheranne</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Sachin Agarwal
+
+                                        <a href="http://twitter.com/a4agarwal">@a4agarwal</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Vince Chu
+
+                                        <a href="http://twitter.com/vincentchu">@vincentchu</a>
+
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li class="team team-a">
+                                <h2>Liver Let Die</h2>
+                                <ul class="player-list">
+
+                                    <li class="player">
+                                        Derek Bender
+
+                                        <a href="http://twitter.com/derekbender">@derekbender</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Elizabeth Baranik
+
+                                        <a href="http://twitter.com/elizabethb">@elizabethb</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Derek Kohn
+
+                                        <a href="http://twitter.com/makemealive_dk">@makemealive_dk</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Matt Dorst
+
+                                    </li>
+
+                                    <li class="player">
+                                        Eric Marden
+
+                                        <a href="http://twitter.com/xentek">@xentek</a>
+
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li class="team team-b">
+                                <h2>The Slow Children</h2>
+                                <ul class="player-list">
+
+                                    <li class="player">
+                                        Erik Hay
+
+                                        <a href="http://twitter.com/erikthehay">@erikthehay</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Sam Granleese
+
+                                        <a href="http://twitter.com/granleese">@granleese</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Brian Merrifield
+
+                                        <a href="http://twitter.com/bboybri">@bboybri</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Damien Damjanovski
+
+                                    </li>
+
+                                    <li class="player">
+                                        Barrie Seppings
+
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li class="team team-a">
+                                <h2>Fred Durst Society of the Humanities and Arts</h2>
+                                <ul class="player-list">
+
+                                    <li class="player">
+                                        Michele Cummins
+
+                                        <a href="http://twitter.com/SoyMichelada">@SoyMichelada</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Kollin Brandenburg
+
+                                        <a href="http://twitter.com/HeyYouUpFront">@HeyYouUpFront</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Brooke Marcus
+
+                                        <a href="http://twitter.com/YuppieBrooke">@YuppieBrooke</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Alicia Saba
+
+                                    </li>
+
+                                    <li class="player">
+                                        Jake Balcom
+
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li class="team team-b">
+                                <h2>Stellas</h2>
+                                <ul class="player-list">
+
+                                    <li class="player">
+                                        Chelsey Salisbury
+
+                                        <a href="http://twitter.com/chelllaaaa">@chelllaaaa</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Roslynn Castillo
+
+                                        <a href="http://twitter.com/RoslynnCastillo">@RoslynnCastillo</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Elizabeth Davis
+
+                                    </li>
+
+                                    <li class="player">
+                                        Jennifer Alt
+
+                                    </li>
+
+                                    <li class="player">
+                                        Hanna Pendl
+
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li class="team team-a">
+                                <h2>10/10s</h2>
+                                <ul class="player-list">
+
+                                    <li class="player">
+                                        Rohan Seth
+
+                                        <a href="http://twitter.com/rohanseth">@rohanseth</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Carlos Whitt
+
+                                        <a href="http://twitter.com/carloswhitt">@carloswhitt</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Sara Haider
+
+                                        <a href="http://twitter.com/pandemona">@pandemona</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Ajit Varma
+
+                                    </li>
+
+                                    <li class="player">
+                                        Jesse Shieh
+
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li class="team team-b">
+                                <h2>move &lt;/aside&gt;</h2>
+                                <ul class="player-list">
+
+                                    <li class="player">
+                                        Mike Brenner
+
+                                        <a href="http://twitter.com/MikeMakes">@MikeMakes</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Justin Michaliga
+
+                                        <a href="http://twitter.com/jmichaliga">@jmichaliga</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Jerry Biehl
+
+                                        <a href="http://twitter.com/jerrybiehl">@jerrybiehl</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Lokesh Dhakar
+
+                                        <a href="http://twitter.com/lokeshdhakar">@lokeshdhakar</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Todd Marks
+
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li class="team team-a">
+                                <h2>Canadian Livers in Training</h2>
+                                <ul class="player-list">
+
+                                    <li class="player">
+                                        Erin Bury
+
+                                        <a href="http://twitter.com/erinbury">@erinbury</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Lee Dale
+
+                                        <a href="http://twitter.com/smack416">@smack416</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Jay Goldman
+
+                                        <a href="http://twitter.com/jaygoldman">@jaygoldman</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Matt Rintoul
+
+                                        <a href="http://twitter.com/matt416">@matt416</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Kagey Davis
+
+                                        <a href="http://twitter.com/kgdavis">@kgdavis</a>
+
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li class="team team-b">
+                                <h2>Flipsburgh</h2>
+                                <ul class="player-list">
+
+                                    <li class="player">
+                                        Sarah Lamont
+
+                                        <a href="http://twitter.com/seriflafont">@seriflafont</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Emily Brewer
+
+                                        <a href="http://twitter.com/ebrewer">@ebrewer</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Jennifer McLean
+
+                                        <a href="http://twitter.com/jennymclean">@jennymclean</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Guy Gould-Davies
+
+                                    </li>
+
+                                    <li class="player">
+                                        Andrew Van Hook
+
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li class="team team-a">
+                                <h2>Craft Beer Social + Belching Monkey = The Waterboys</h2>
+                                <ul class="player-list">
+
+                                    <li class="player">
+                                        Jim Storer
+
+                                        <a href="http://twitter.com/jimstorer">@jimstorer</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Derek Peplau
+
+                                        <a href="http://twitter.com/peplau">@peplau</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Mike Schneider
+
+                                        <a href="http://twitter.com/schneidermike">@schneidermike</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Mike Pascucci
+
+                                        <a href="http://twitter.com/mikepascucci">@mikepascucci</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Matt Solar
+
+                                        <a href="http://twitter.com/mattsolar">@mattsolar</a>
+
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li class="team team-b">
+                                <h2>The yayQuery Sparkleforce</h2>
+                                <ul class="player-list">
+
+                                    <li class="player">
+                                        Alex Sexton
+
+                                        <a href="http://twitter.com/SlexAxton">@SlexAxton</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Paul Irish
+
+                                        <a href="http://twitter.com/paul_irish">@paul_irish</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Ben Weatherman
+
+                                        <a href="http://twitter.com/benweatherman">@benweatherman</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Jon Loyens
+
+                                    </li>
+
+                                    <li class="player">
+                                        Aaron Forsander
+
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li class="team team-a">
+                                <h2>Saatchi &amp; Shortlist Los Angeles</h2>
+                                <ul class="player-list">
+
+                                    <li class="player">
+                                        Justin Bain
+
+                                        <a href="http://twitter.com/jbain75">@jbain75</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Charlie McBrearty
+
+                                        <a href="http://twitter.com/shortlister">@shortlister</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Tanya Lesieur
+
+                                        <a href="http://twitter.com/tanyalesieur">@tanyalesieur</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Vaness McLean
+
+                                    </li>
+
+                                    <li class="player">
+                                        David Evans
+
+                                        <a href="http://twitter.com/spyglasscircle">@spyglasscircle</a>
+
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li class="team team-b">
+                                <h2>Team Throat Punch</h2>
+                                <ul class="player-list">
+
+                                    <li class="player">
+                                        Todd Bayliss
+
+                                        <a href="http://twitter.com/dillisquid">@dillisquid</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Stephanie Hay
+
+                                        <a href="http://twitter.com/steph_hay">@steph_hay</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Doug Avery
+
+                                        <a href="http://twitter.com/averyvery">@averyvery</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Keith Muth
+
+                                        <a href="http://twitter.com/keithmuth">@keithmuth</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Chris Castiglione
+
+                                        <a href="http://twitter.com/castig">@castig</a>
+
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li class="team team-a">
+                                <h2>SD Mafia</h2>
+                                <ul class="player-list">
+
+                                    <li class="player">
+                                        Chris McCann
+
+                                        <a href="http://twitter.com/mccannatron">@mccannatron</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Brendan McManus
+
+                                        <a href="http://twitter.com/founderb">@founderb</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Gagan Biyani
+
+                                        <a href="http://twitter.com/gaganbiyani">@gaganbiyani</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Jessica Ford
+
+                                    </li>
+
+                                    <li class="player">
+                                        Matt Sandler
+
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li class="team team-b">
+                                <h2>Nerds in Herds</h2>
+                                <ul class="player-list">
+
+                                    <li class="player">
+                                        DJ Saul
+
+                                        <a href="http://twitter.com/darienjay100">@darienjay100</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Audrey Matthias
+
+                                        <a href="http://twitter.com/amatthias">@amatthias</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Zvi Band
+
+                                        <a href="http://twitter.com/skeevis">@skeevis</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Dan Dzombak
+
+                                    </li>
+
+                                    <li class="player">
+                                        Zach Goodwin
+
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li class="team team-a">
+                                <h2>Geeks Adventure Club</h2>
+                                <ul class="player-list">
+
+                                    <li class="player">
+                                        Antoine Butler
+
+                                        <a href="http://twitter.com/aebsr">@aebsr</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Andrew Cohen
+
+                                        <a href="http://twitter.com/cohenspire">@cohenspire</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Corey Greeneltch
+
+                                        <a href="http://twitter.com/blanksky">@blanksky</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Reid Williams
+
+                                    </li>
+
+                                    <li class="player">
+                                        Stuart Kershaw
+
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li class="team team-b">
+                                <h2>The PR&rsquo;UF is on fire</h2>
+                                <ul class="player-list">
+
+                                    <li class="player">
+                                        Varick Rosete
+
+                                        <a href="http://twitter.com/varick">@varick</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Dennis Eusebio
+
+                                        <a href="http://twitter.com/thoughtntheory">@thoughtntheory</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Pete Cochrane
+
+                                    </li>
+
+                                    <li class="player">
+                                        Jen Hyde
+
+                                    </li>
+
+                                    <li class="player">
+                                        Bruce Wayne
+
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li class="team team-a">
+                                <h2>UserVoice</h2>
+                                <ul class="player-list">
+
+                                    <li class="player">
+                                        Evan Hamilton
+
+                                        <a href="http://twitter.com/evanhamilton">@evanhamilton</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Daniel Kan
+
+                                        <a href="http://twitter.com/danielkan">@danielkan</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Mark Martin
+
+                                        <a href="http://twitter.com/assplecake">@assplecake</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Scott Rutherford
+
+                                    </li>
+
+                                    <li class="player">
+                                        Jonathan Novak
+
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li class="team team-b">
+                                <h2>Ze Germans</h2>
+                                <ul class="player-list">
+
+                                    <li class="player">
+                                        Martijn van Erp
+
+                                        <a href="http://twitter.com/martijnvanerp">@martijnvanerp</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Wietse Hage
+
+                                        <a href="http://twitter.com/wietsehage">@wietsehage</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Johan Kuijt
+
+                                        <a href="http://twitter.com/johankuijt">@johankuijt</a>
+
+                                    </li>
+
+                                    <li class="player">
+                                        Joris Verbogt
+
+                                    </li>
+
+                                    <li class="player">
+                                        Peter van Grieken
+
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                        </ul>
+
+                    </section>
+                    <!-- #teams -->
+
+                    <section id="limbo">
+                        <a href="#intro" id="totem" class="page-nav"><img src="./img/totem01.gif" alt="" /></a>
+                    </section>
+                    <!-- #limbo -->
+
+                </div>
+                <!-- #content -->
+
+            </div>
+            <!-- #environment -->
+
         </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="2000">
-                <img src="./img/fest/SAIL0832.JPG" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item" data-bs-interval="2000">
-                <img src="./img/fest/SAIL0914.JPG" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item" data-bs-interval="2000">
-                <img src="./img/fest/SAIL1185.JPG" class="d-block w-100" alt="...">
-            </div>
-            
-        </div>
-        <button class="carousel-control-prev" type="button"
-            data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true">
-            </span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button"
-            data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true">
-            </span>
-            <span class="visually-hidden">Next</span>
-        </button>
+        <!-- #container -->
+
+
     </div>
+    <!-- #wrap -->
+
+    <div id="scroll-proxy"></div>
+
+    <audio preload="auto">
+  <source src="audio/inception.mp3" type="audio/mp3" />
+  <source src="audio/inception.ogg" type="audio/ogg" />
+</audio>
 
 
-    <!-- events category -->
-    <div class="container py-3" style="height: auto;" id="events">
-        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-            <h2>Events Category</h2>
-            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-                <div class="col">
-                    <div class="card mb-4 rounded-3 shadow-sm">
-                        <div class="card-header py-3">
-                            <h4 class="my-0 fw-normal">Literature & Culture</h4>
-                        </div>
-                        <div class="card-body">
-                            <ul class="list-unstyled text-start mt-3 mb-4">
-                                <li><i class="fas fa-star" style="color: #FFD43B;"></i><a href="./literature/fine-arts.html"> Fine Arts</a></li>
-                                <li><i class="fas fa-star" style="color: #FFD43B;"></i><a href="./literature/music.html
-                                    "> Music and Band (Solo and
-                                        Group)</a></li>
-                                <li><i class="fas fa-star" style="color: #FFD43B;"></i><a href="./literature/Dance.html"> Dance (Solo and
-                                        Group)</a></li>
-                                <li><i class="fas fa-star" style="color: #FFD43B;"></i><a href="./literature/dramatics.html"> Dramatics</a></li>
-                                <li><i class="fas fa-star" style="color: #FFD43B;"></i><a href="./literature/mr-ms-colorido.html"> Mr. & Ms. COLORIDO</a>
-                                </li>
-                                <li><i class="fas fa-star" style="color: #FFD43B;"></i><a href="./literature/literary.html"> Literary Events</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-    
-                <div class="col">
-                    <div class="card mb-4 rounded-3 shadow-sm">
-                        <div class="card-header py-3">
-                            <h4 class="my-0 fw-normal">Technical</h4>
-                        </div>
-                        <div class="card-body">
-                            <ul class="list-unstyled text-start mt-3 mb-4">
-                                <li><i class="fas fa-star" style="color: #FFD43B;"></i><a href="./technical/civil.html"> Civil Carnival (CE)</a>
-                                </li>
-                                <li><i class="fas fa-star" style="color: #FFD43B;"></i><a href="./technical/che-check.html"> Check (CHE)</a></li>
-                                <li><i class="fas fa-star" style="color: #FFD43B;"></i><a href="./technical/eee-vidyut.html"> Vidyut Tarang (EEE)</a>
-                                </li>
-                                <li><i class="fas fa-star" style="color: #FFD43B;"></i><a href="#"> CIS'SOIRE (CS)</a></li>
-                                <li><i class="fas fa-star" style="color: #FFD43B;"></i><a href="#"> Technophilia (ECE)</a>
-                                </li>
-                                <li><i class="fas fa-star" style="color: #FFD43B;"></i><a href="./technical/Manmeet.html"> ManMeet (MBA)</a></li>
-                                <li><i class="fas fa-star" style="color: #FFD43B;"></i><a href="#"> Mechmantra (Mech)</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card mb-4 rounded-3 shadow-sm">
-                        <div class="card-header py-3">
-                            <h4 class="my-0 fw-normal">Sports</h4>
-                        </div>
-                        <div class="card-body">
-                            <ul class="list-unstyled text-start mt-3 mb-4">
-                                <h6 class="text-start"> Boys Events</h6>
-                                <li><i class="fas fa-star" style="color: #FFD43B;"></i><a href="#"> Basketball</a></li>
-                                <li><i class="fas fa-star" style="color: #FFD43B;"></i><a href="#"> Volleyball</a></li>
-                                <li><i class="fas fa-star" style="color: #FFD43B;"></i><a href="#"> Table Tennis</a></li>
-                            </ul>
-                            <ul class="list-unstyled text-start mt-3 mb-4">
-                                <h6 class="text-start"> Girls Events</h6>
-                                <li><i class="fas fa-star" style="color: #FFD43B;"></i><a href="#"> Throwball</a></li>
-                                <li><i class="fas fa-star" style="color: #FFD43B;"></i><a href="#"> Tennikoit</a></li>
-                                <li><i class="fas fa-star" style="color: #FFD43B;"></i><a href="#"> Table Tennis</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script>
+        !window.jQuery && document.write(unescape('%3Cscript src="js/jquery-1.4.4.min.js"%3E%3C/script%3E'))
+    </script>
+    <script src="./js/scripts.js"></script>
+
+    <script>
+        var _gaq = [
+            ['_setAccount', 'UA-6925512-7'],
+            ['_setDomainName', 'beercamp.com'],
+            ['_trackPageview']
+        ];
+        (function(d, t) {
+            var g = d.createElement(t),
+                s = d.getElementsByTagName(t)[0];
+            g.async = 1;
+            g.src = ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g, s)
+        }(document, 'script'));
+    </script>
 
 
-
-
-
-    <!-- memory lane -->
-
-    <div>
-        <a id="memorylane"></a>
-        <div class="container marketing">
-            <div class="row">
-                <div class="col-lg-4">
-                    <img src="./img/fest/SAIL0832.JPG" alt="..." class="bd-placeholder-img rounded-circle"
-                        width="140" height="140">
-                    <h2>Heading</h2>
-                    <p>Some representative placeholder content for the three columns of text below the carousel.
-                        This is the first column.</p>
-                    <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-                </div>
-                <div class="col-lg-4">
-                    <img src="./img/fest/SAIL0914.JPG" alt="..." class="bd-placeholder-img rounded-circle"
-                        width="140" height="140">
-                    <h2>Heading</h2>
-                    <p>Another exciting bit of representative placeholder content. This time, we've moved on to
-                        the second column.</p>
-                    <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-                </div>
-                <div class="col-lg-4">
-                    <img src="./img/fest/SAIL1185.JPG" alt="..." class="bd-placeholder-img rounded-circle"
-                        width="140" height="140">
-                    <h2>Heading</h2>
-                    <p>And lastly this, the third column of representative placeholder content.</p>
-                    <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-
-        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-            </script> -->
-    
-    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> -->
 </body>
+
 </html>
