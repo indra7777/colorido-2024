@@ -150,7 +150,7 @@ a {
     padding: 0;
     font-size: 100%;
     vertical-align: baseline;
-    background: transparent;
+    background: green;
 }
 
 ins {
@@ -893,7 +893,7 @@ a:hover {
 }
 
 #featuring .links a {
-    color: #B20;
+    color: rgb(89,57, 50);
 }
 
 #featuring .links a:hover {
@@ -1292,8 +1292,8 @@ a:hover {
 
 #teams h1 span {
     display: block !important;
-    line-height: 0.8em;
-    font-size: 80px !important;
+    line-height: 1.5em;
+    font-size: 50px !important;
 }
 
 #teams .team-list {
@@ -1473,7 +1473,7 @@ a:hover {
 
 .csstransforms #sign-up-form .close a:hover {
     background: #B20;
-    color: white;
+    color: #fac850;
 }
 
 body {
