@@ -16,7 +16,7 @@
         // properties
         this.scrolled = 0;
         this.currentLevel = 0;
-        this.levels = 8;
+        this.levels = 5;
         this.distance3d = 1000;
         this.levelGuide = {
             '#intro': 0,
