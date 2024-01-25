@@ -13,66 +13,62 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="../css/literary.css">
 
-    <title>Fine Arts</title>
+    <title>Technical</title>
+    <style>
+        .col{
+        height:9rem;
+        margin:2rem 3rem;
+        padding-top: 3%;
+        border-radius: 5%;
+        background-color: #929ca5;
+        
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+  
+  
+            color: #fdedc7;
+            
+        }
+        .container-fluid{
+        text-align:center;
+        margin-top: 15rem;
+        }
+        
+    </style>
+
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-xl navbar-light hover-nav fixed-top" style="background-color: white;">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Tehcnical</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a href="../index.html" class="nav-link">Home</a></li>
-                    <li class="nav-item dropdown ml-auto">
-                        <a class="nav-link dropdown" href="#" id="fineArtsDropdown" role="button" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
-                            CS
-                        </a>
-                        
-                    </li>
-
-                    <!-- Music and Band with Dropdown -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown" href="./civil.html" id="musicBandDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                           CIVIL
-                        </a>
-                        
-                    </li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown" href="./che-check.html" id="dancedropdown" role="button" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
-                            CHE
-                        </a>
-                       
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown" href="./eee-vidyut.html" id="dramaticsDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            EEE
-                        </a>
-                        
-                    </li>
-                    <li>
-                        <a class="nav-link dropdown" href="">
-                            ECE
-                        </a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown" href="#" id="literaryDropdown" role="button" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
-                            MECH
-                        </a>
-                        
-                    </li>
-                </ul>
+    <div id class="container-fluid">
+        <h1><a href="#">Tehnical</a></h1>
+        <div class="row">
+    
+            <div class="col card">
+                <h3><a href="#">CS</a></h3>
             </div>
-    </nav>
+            <div class=" col card">
+                <h3><a href="./civil.html">CIV</a></h3>
+            </div>
+            <div class="col card">
+                <h3><a href="./che-check.html">CHE</a></h3>
+            </div>
+        </div>
+        <div class="row">
+    
+            <div class=" col card">
+                <h3><a href="#">ECE</a></h3>
+            </div>
+            <div class=" col card">
+                <h3><a href="./eee-vidyut.html">EEE</a></h3>
+            </div>
+            <div class=" col card">
+                <h3><a href="#">MECH</a></h3>
+            </div>
+        </div>
+    </div>
 
 
 
