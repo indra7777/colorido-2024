@@ -85,7 +85,7 @@ body {
 
 .carousel-item img {
     height: 100%;
-    
+    padding-top: 92px;
     /* Bootstrap handles width already */
     object-fit: contain;
     /* or 'contain' if you want stretch instead of crop */
